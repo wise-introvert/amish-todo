@@ -3,7 +3,7 @@
 - Clone this repo
 
 ```bash
-$ git clone https://www.github.com/wise-introvert/todo.git
+$ git clone https://www.github.com/wise-introvert/amish-todo.git
 ```
 
 - Install all the dependencies
