@@ -21,7 +21,7 @@ $ yarn start
 
 # Deployment
 
-> :warning: Make sure hosting is enabled in the firebase console by visiting <pre>https://console.firebase.google.com/u/0/project/\<your-project-name\>/hosting/sites</pre> and clicking on "Get Started"
+> :warning: Make sure hosting is enabled in the firebase console by visiting <pre>https://console.firebase.google.com/u/0/project/<your-project-name\>/hosting/sites</pre> and clicking on "Get Started"
 
 - Install [firebase-tools](https://firebase.google.com/docs/cli#windows-npm)
 - Login to the firebase cli
