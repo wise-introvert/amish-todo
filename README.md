@@ -1,33 +1,43 @@
-# React with Firebase🔥 Todo App
+# Setup
 
-This is a sample react todo app.
-
-Live Demo [here](https://react-firebase-todo-app-d37d1.web.app/).
-
-## Instructions
-
-First clone this repository.
+- Clone this repo
 
 ```bash
-$ git clone https://github.com/sakilk130/react-firebase-todo-app.git
+$ git clone https://www.github.com/wise-introvert/todo.git
 ```
 
-Install dependencies. Make sure you already have [`nodejs`](https://nodejs.org/en/) & [`npm`](https://www.npmjs.com/) installed in your system.
+- Install all the dependencies
 
 ```bash
-$ npm install # or yarn
+$ yarn
 ```
 
-Run it
+- Create a project in firebase and copy over the config to `.env` ( you'll have to create the file ). Look at `.env.example` for reference
+- Start the app
 
 ```bash
-$ npm start # or yarn start
+$ yarn start
 ```
 
-## Built with
+# Deployment
 
-- Reactjs
-- React Hooks
-- Firebase (database)
-- With Full Crud Functionality (insert, update,delete, read)
-- Material-UI for design
+> :warning: Make sure hosting is enabled in the firebase console by visiting <pre>https://console.firebase.google.com/u/0/project/\<your-project-name\>/hosting/sites</pre> and clicking on "Get Started"
+
+- Install [firebase-tools](https://firebase.google.com/docs/cli#windows-npm)
+- Login to the firebase cli
+
+```bash
+$ firebase login
+```
+
+- Build the application
+
+```bash
+$ yarn build
+```
+
+- Deploy to hosting
+
+```bash
+$ firebase deploy --only hosting
+```
